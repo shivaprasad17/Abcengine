@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Abcengine/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/Abcengine/static/js/main.89413d6c.chunk.js",
+    "main.js.map": "/Abcengine/static/js/main.89413d6c.chunk.js.map",
+    "runtime-main.js": "/Abcengine/static/js/runtime-main.e84df75c.js",
+    "runtime-main.js.map": "/Abcengine/static/js/runtime-main.e84df75c.js.map",
+    "static/css/2.dbcebdae.chunk.css": "/Abcengine/static/css/2.dbcebdae.chunk.css",
+    "static/js/2.42511cb3.chunk.js": "/Abcengine/static/js/2.42511cb3.chunk.js",
+    "static/js/2.42511cb3.chunk.js.map": "/Abcengine/static/js/2.42511cb3.chunk.js.map",
+    "static/js/3.7afc80c4.chunk.js": "/Abcengine/static/js/3.7afc80c4.chunk.js",
+    "static/js/3.7afc80c4.chunk.js.map": "/Abcengine/static/js/3.7afc80c4.chunk.js.map",
+    "index.html": "/Abcengine/index.html",
+    "static/css/2.dbcebdae.chunk.css.map": "/Abcengine/static/css/2.dbcebdae.chunk.css.map",
+    "static/css/main.8c8b27cf.chunk.css.map": "/Abcengine/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.42511cb3.chunk.js.LICENSE.txt": "/Abcengine/static/js/2.42511cb3.chunk.js.LICENSE.txt",
+    "static/media/backgroudgopro.a6061346.jpg": "/Abcengine/static/media/backgroudgopro.a6061346.jpg",
+    "static/media/semantic.min.css": "/Abcengine/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/logo.6ce24c58.svg": "/Abcengine/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e84df75c.js",
+    "static/css/2.dbcebdae.chunk.css",
+    "static/js/2.42511cb3.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.89413d6c.chunk.js"
+  ]
+}
