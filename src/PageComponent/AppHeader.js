@@ -13,6 +13,7 @@ const HeaderWrapper = styled.nav`
     padding: 15px 50px;
     top: 0;
     box-shadow: 0px 3px 6px #00000029;
+    display:flex;
 `;
 
 
@@ -32,6 +33,8 @@ const StartWrapper = styled.div`
     align-items: center;
     -webkit-box-pack: start;
     justify-content: flex-start;
+    width:85%
+    
 `;
 
  
@@ -42,6 +45,7 @@ const EndWrapper = styled.div`
     align-items: center;
     -webkit-box-pack: end;
     justify-content: flex-end;
+    width:15%
 `;
 export default function AppHeader(){
 

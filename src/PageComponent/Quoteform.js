@@ -16,8 +16,11 @@ color: '#FFFFF'
 
 const StudyFormInput = styled(Input)`
 &&&& {
+    &.ui.input{
+    width:-webkit-fill-available;
+    }
     &.ui.input>input {
-        width: -webkit-fill-available;
+        width: 100%;
         height: 28px;
         padding: 3px 4px 3px 4px;
         font-size:14px;
