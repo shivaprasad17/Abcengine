@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Container ,Form,Icon,TextArea,Grid,Button,Dropdown,Input} from 'semantic-ui-react'
+import { Container ,Form,Icon,TextArea,Grid,Button,Dropdown,Input,Modal} from 'semantic-ui-react'
 import styled from 'styled-components'
 
 import selecctpart from './selectpart.json'
@@ -17,7 +17,7 @@ color: '#FFFFF'
 const StudyFormInput = styled(Input)`
 &&&& {
     &.ui.input>input {
-        width: auto;
+        width: -webkit-fill-available;
         height: 28px;
         padding: 3px 4px 3px 4px;
         font-size:14px;
@@ -85,6 +85,7 @@ const selectmakeroptions=[{
 export default function Quotrform(){
 
    const [yearss,setyears]=useState([])
+   const [open,setOpen]=useState(false)
    let yearsoptions=yearss
    const [modal,setmodal]=useState(selectmodal.Bentley)
    let modaloptiosn=modal
@@ -123,6 +124,23 @@ export default function Quotrform(){
     }
     return(
         <div >
+            <Modal
+      centered={false}
+      open={open}
+      onClose={() => setOpen(false)}
+      onOpen={() => setOpen(true)}
+      
+    >
+      <Modal.Header>Thank you!</Modal.Header>
+      <Modal.Content>
+        <Modal.Description>
+        we will contact you soon
+        </Modal.Description>
+      </Modal.Content>
+      <Modal.Actions>
+        <Button onClick={() => setOpen(false)}>OK</Button>
+      </Modal.Actions>
+    </Modal>
         <Container >
         
          <FormContainer>
@@ -230,7 +248,7 @@ export default function Quotrform(){
                    </Grid.Row>
                    <Grid.Row>
                        <Grid.Column textAlign="center">
-                            <StyledquoteButton>Get My Free Quote Now</StyledquoteButton>
+                            <StyledquoteButton onClick={() => setOpen(true)}>Get My Free Quote Now</StyledquoteButton>
                        </Grid.Column>
                    </Grid.Row>
                </Grid>
