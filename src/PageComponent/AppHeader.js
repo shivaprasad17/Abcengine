@@ -53,7 +53,7 @@ export default function AppHeader(){
       <Icon loading size='big' name='circle notch' />
       <Icon name='truck' />
     </Icon.Group>
-                   <Header>Hary Engine</Header>
+                   <Header>Harry Engine</Header>
                 </StartWrapper>
                 <EndWrapper style={{display:'inline',float:'right'}}>
                     <div>
